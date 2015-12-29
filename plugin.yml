@@ -5,4 +5,3 @@ commands:
     nochat:
         description: 'Turns off global chat.'
         usage: '/nochat'
-	
