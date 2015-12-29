@@ -1,7 +1,7 @@
 package com.odin.warwick;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Test extends JavaPlugin {
+public class Main extends JavaPlugin {
     // Called when plugin is first enabled.
     @Override
     public void onEnable() {
