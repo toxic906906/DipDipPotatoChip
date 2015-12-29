@@ -6,7 +6,7 @@ import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class FlimsyIronSword extends JavaPlugin
+public class WeakEmeraldSword extends JavaPlugin
 {
 
     @Override
@@ -14,12 +14,12 @@ public class FlimsyIronSword extends JavaPlugin
     {
         ItemStack sword = new ItemStack( Material.DIAMOND_SWORD );
         ItemMeta im = sword.getItemMeta();
-        im.setDisplayName( "Flimsy Iron Sword" );
+        im.setDisplayName( "Weak Emerald Sword" );
         sword.setItemMeta( im );
-        sword.addEnchantment( Enchantment.DAMAGE_ALL, 1 );
+        sword.addEnchantment( Enchantment.DAMAGE_ALL, 2 );
         ShapedRecipe recipe = new ShapedRecipe( sword );
-        recipe.shape( " I ", " I ", " S " );
-        recipe.setIngredient( 'I', Material.IRON_INGOT );
+        recipe.shape( " E ", " E ", " S " );
+        recipe.setIngredient( 'E', Material.EMERALD );
         recipe.setIngredient( 'S', Material.STICK );
         getServer().addRecipe( recipe );
     }
