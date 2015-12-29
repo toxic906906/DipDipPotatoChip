@@ -2,7 +2,7 @@ name: Warwick Kingdom
 main: com.odin.warwick.Main
 version: 0.01
 commands:
-	nochat:
-		description: 'Turns off global chat.'
-		usage: '/nochat'
+    nochat:
+        description: 'Turns off global chat.'
+        usage: '/nochat'
 	
