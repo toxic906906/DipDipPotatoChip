@@ -1,4 +1,4 @@
-package com.github.stephengardner.globalmute;
+package com.odin.warwick;
 
 import java.util.ArrayList;
 import java.util.HashMap;
